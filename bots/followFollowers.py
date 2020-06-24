@@ -17,7 +17,7 @@ def main():
     api = create_api()
     while True:
         follow_followers(api)
-        logger.info("Waiting...")
+        logger.info("Waiting....")
         time.sleep(60)
 
 if __name__ == "__main__":
