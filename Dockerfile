@@ -1,6 +1,7 @@
 # containerize the app
 
-FROM python:3.7-alpine
+# base image, contains Python3.7 and pi
+FROM python:3.7-alpine 
 
 COPY bots/config.py /bots/
 COPY bots/favretweet.py /bots/
