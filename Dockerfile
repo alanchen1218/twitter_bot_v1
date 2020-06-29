@@ -1,6 +1,6 @@
 # containerize the app
 
-FROM python:3.7-apline
+FROM python:3.7-alpine
 
 COPY bots/config.py /bots/
 COPY bots/favretweet.py /bots/
