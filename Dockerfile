@@ -13,6 +13,7 @@ RUN pip3 install -r /tmp/requirements.txt
 WORKDIR /bots
 CMD ["python3", "favretweet.py"] 
 
+# commands to run after it's deployed
 # docker build . -t fav-retweet-bot
 
 #  docker run -it -e CONSUMER_KEY="<consumer key>" \
